@@ -28,6 +28,10 @@ a:hover {
 
 }
 
+#design-port {
+  font-size: inherit;
+}
+
 h3 {
   line-height: 1.5;
 }
