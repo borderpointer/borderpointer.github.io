@@ -16,20 +16,16 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 1.125em;
   color: #009F9C;
   border-bottom: 2px solid #009F9C;
   transition: all .25s ease;
+  font-size: inherit;
 }
 
 a:hover {
   color: #207EB0;
   border-bottom: 2px solid #207EB0;
 
-}
-
-#design-port {
-  font-size: inherit;
 }
 
 h3 {
