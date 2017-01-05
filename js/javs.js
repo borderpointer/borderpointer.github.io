@@ -5,11 +5,11 @@
     });
 
     video.addEventListener('mouseleave', function() {
-      if (!this.paused) {
-        setTimeout(function() {
-          video.pause();
-        }, 150);
-      }
+      if (!this.paused) this.pause();
     });
   });
+
+  window.onerror = function() {
+    return true;
+  };
 })();
