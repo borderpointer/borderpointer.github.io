@@ -65,6 +65,7 @@ header {
   font-size: 1.75em;
   font-weight: 700;
   line-height: 1.5;
+  margin-bottom: 50px;
 }
 
 .grid {
@@ -162,9 +163,17 @@ footer {
 
 @media screen and (max-width: 1320px) {
 
+  .icons {
+    font-size: 2em;
+    padding: 0px 12px;
+  }
   .column {
     float: none;
     width: 100vw;
   }
 
+  #landing,
+  #my-description {
+    width: 75vw;
+  }
 }
