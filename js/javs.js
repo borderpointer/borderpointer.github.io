@@ -8,8 +8,4 @@
       if (!this.paused) this.pause();
     });
   });
-
-  window.onerror = function() {
-    return true;
-  };
 })();
