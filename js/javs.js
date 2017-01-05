@@ -6,8 +6,8 @@
 
     video.addEventListener('mouseleave', function() {
       if (!this.paused) {
-        setTimeout(function () {
-          this.pause();
+        setTimeout(function() {
+          video.pause();
         }, 150);
       }
     });
