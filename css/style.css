@@ -162,6 +162,13 @@ footer {
 }
 
 @media screen and (max-width: 1320px) {
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
 
   .icons {
     font-size: 2em;
@@ -170,6 +177,7 @@ footer {
   .column {
     float: none;
     width: 100vw;
+    padding-bottom: 20px;
   }
 
   #landing,
