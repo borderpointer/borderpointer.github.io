@@ -10,6 +10,6 @@
   });
 
   window.onerror = function() {
-    return true;
+    return false;
   };
 })();
